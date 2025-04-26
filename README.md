@@ -14,13 +14,12 @@ PATH=~/sfcli/bin:$PATH
 ```sh
 sfdx force:auth:web:login --setalias myOrgAlias --instanceurl https://login.salesforce.com --setdefaultusername --dev-debug
 ```
-
-# Create a Salesforce DX Project
-1. In Visual Studio Code, open the Command Palette by pressing Ctrl+Shift+P (Windows) or Cmd+Shift+P (macOS).
-2. Type <small>SFDX</small>.
-3. Select SFDX: Create Project.
-4. Press Enter to accept the standard option.
-5. Enter HelloWorldLightningWebComponent as the project name.
-6. Press Enter.
-7. Select a folder to store the project.
-8. Click Create Project. You should see something like this as your base setup.
+## 📁 Creating a Salesforce DX Project
+1. Open **Visual Studio Code**.
+2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to open the **Command Palette**.
+3. Type and select **`SFDX: Create Project`**.
+4. Press **Enter** to accept the **standard** project template.
+5. Enter `HelloWorldLightningWebComponent` as the **project name**.
+6. Press **Enter**.
+7. Choose a folder to store your project files.
+8. Click **Create Project**.
